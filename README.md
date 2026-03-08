@@ -1,1 +1,1 @@
-# brain-mri-wgan-gp!
+# brain-mri-wgan-gp
