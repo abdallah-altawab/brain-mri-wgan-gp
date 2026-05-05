@@ -1,0 +1,19 @@
+dataset:
+  path: data/brain_mri/images
+  image_size: 128
+  channels: 1
+
+training:
+  seed: 999
+  epochs: 10
+  batch_size: 64
+  num_workers: 2
+  z_dim: 100
+  critic_steps: 5
+  lambda_gp: 10.0
+  lr_generator: 0.0001
+  lr_critic: 0.0001
+
+logging:
+  sample_every: 5
+  save_every: 10
