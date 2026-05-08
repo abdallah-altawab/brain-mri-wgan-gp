@@ -90,22 +90,18 @@ brain-mri-wgan-gp/
 │   └── train.yaml                  # All hyperparameters — edit here, not in code
 │
 ├── models/
-│   ├── \_\_init\_\_.py
 │   ├── generator.py                # ConvTranspose2d stack: z → 128×128 MRI
 │   └── critic.py                   # Conv2d stack: image → scalar Wasserstein score
 │
 ├── training/
-│   ├── \_\_init\_\_.py
 │   ├── losses.py                   # Gradient penalty — differentiable Lipschitz enforcement
 │   └── trainer.py                  # Core adversarial training step
 │
 ├── scripts/
-│   ├── \_\_init\_\_.py
 │   ├── train.py                    # Entry point: dataset, models, loop, checkpointing
 │   └── generate.py                 # Inference: load checkpoint → save sample grid
 │
 ├── utils/
-│   ├── \_\_init\_\_.py
 │   ├── seed.py                     # Global reproducibility seeding
 │   └── visualization.py            # save\_samples utility
 │
