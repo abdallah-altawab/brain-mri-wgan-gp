@@ -1,11 +1,5 @@
-# 🧠 Brain MRI Synthesis — WGAN-GP
+# Brain MRI Synthesis — WGAN-GP
 
-!\[Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-!\[PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange?logo=pytorch)
-!\[Model](https://img.shields.io/badge/Model-WGAN--GP-purple)
-!\[Domain](https://img.shields.io/badge/Domain-Medical%20Imaging-red)
-!\[Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-!\[License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 I built this project to synthesize realistic grayscale brain MRI images using a
 **Wasserstein GAN with Gradient Penalty (WGAN-GP)**. The core motivation was
@@ -137,7 +131,7 @@ brain-mri-wgan-gp/
 * torchvision, PyYAML, Pillow, matplotlib
 
 ```bash
-git clone https://github.com/your-username/brain-mri-wgan-gp.git
+git clone https://github.com/abdallah-altawab/brain-mri-wgan-gp.git
 cd brain-mri-wgan-gp
 python -m venv venv
 source venv/bin/activate        # Windows: venv\\Scripts\\activate
