@@ -1,4 +1,4 @@
-# Brain MRI Synthesis — WGAN-GP
+# Brain MRI WGAN-GP
 
 
 I built this project to synthesize realistic grayscale brain MRI images using a
